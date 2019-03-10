@@ -1,0 +1,11 @@
+version: "3"
+services:
+  solr:
+    image: solr:7.6.0
+    container_name: youthchina-solr
+    ports: 
+      - 8983:8983
+    volumes:
+      - solrdata:/opt/solr/server/solr
+volumes:
+  solrdata:
