@@ -27,7 +27,7 @@
                 pk="id"
                 query="SELECT 'REVIEW' AS TYPE, concat('REVIEW_', REVIEW_ID) AS ID, COM_RICH_TEXT.TEXT_CONTENT AS BODY FROM COM_BRIEF_REVIEW INNER JOIN COM_RICH_TEXT WHERE REVIEW_BODY=COM_RICH_TEXT.TEXT_ID;">
             <field column="TYPE" name="type"/>
-            <field column="ID" name="id"/>
+            <field column="ID" name="id"/>http://www.cnblogs.com/zhuawang/archive/2012/12/08/2809380.html
             <field column="BODY" name="body"/>
         </entity>
 
