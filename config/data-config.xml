@@ -2,15 +2,27 @@
     <dataSource type="JdbcDataSource"
                 driver="com.mysql.jdbc.Driver"
                 url="jdbc:mysql://172.28.1.1:3306/youthchina"
-                user="root"
-                password="rootpass"/>
+                user="dbuser"
+                password="dbpass"/>
+
     <document>
-        <entity name="user"
-                pk="USER_ID"
-                query="SELECT USER_ID, USER_NAME, USER_GENDER FROM SYS_USER">
-            <field column="USER_ID" name="id"/>
-            <field column="USER_NAME" name="name"/>
-            <field column="USER_GENDER" name="gender"/>
+        <entity name="question"
+                pk="ID"
+                query="SELECT 'QUESTION' AS TYPE, concat('QUESTION_', QUES_ID) AS ID, QUES_TITLE AS TITLE, COM_RICH_TEXT.TEXT_CONTENT AS BODY FROM COM_QUESTION INNER JOIN COM_RICH_TEXT WHERE COM_QUESTION.QUES_BODY = COM_RICH_TEXT.TEXT_ID;">
+            <field column="ID" name="id"/>
+            <field column="TYPE" name="type"/>
+            <field column="TITLE" name="title"/>
+            <field column="BODY" name="body"/>
         </entity>
+
+        <entity name="answers"
+        pk="id"
+        query="SELECT 'ANSWER' AS TYPE, concat('ANSWER_', ANSWER_ID) AS ID, COM_RICH_TEXT.TEXT_CONTENT AS BODY FROM COM_ANSWER INNER JOIN COM_RICH_TEXT WHERE ANSWER_BODY=COM_RICH_TEXT.TEXT_ID;">
+        <field column="TYPE" name="type"/>
+        <field column="ID" name="id"/>
+        <field column="BODY" name="body"/>
+        </entity>
+
     </document>
+
 </dataConfig>
