@@ -23,6 +23,58 @@
         <field column="BODY" name="body"/>
         </entity>
 
+        <entity name="briefreviews"
+                pk="id"
+                query="SELECT 'REVIEW' AS TYPE, concat('REVIEW_', REVIEW_ID) AS ID, COM_RICH_TEXT.TEXT_CONTENT AS BODY FROM COM_BRIEF_REVIEW INNER JOIN COM_RICH_TEXT WHERE REVIEW_BODY=COM_RICH_TEXT.TEXT_ID;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="BODY" name="body"/>
+        </entity>
+
+        <entity name="essays"
+                pk="id"
+                query="SELECT 'ESSAY' AS TYPE, concat('ESSAY_', ESSAY_ID) AS ID, ESSAY_TITLE AS TITLE, COM_RICH_TEXT.TEXT_CONTENT AS BODY FROM COM_ESSAY INNER JOIN COM_RICH_TEXT WHERE COM_ESSAY.ESSAY_BODY = COM_RICH_TEXT.TEXT_ID;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="TITLE" name="title"/>
+            <field column="BODY" name="body"/>
+        </entity>
+
+        <entity name="companys"
+                pk="id"
+                query="SELECT 'COMPANY' AS TYPE, concat('COMPANY_', COMPANY_ID) AS ID, COMPANY_NAME AS NAME, COMPANY_INTRODUC AS BODY FROM COMPANY_INFO;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="NAME" name="name"/>
+            <field column="BODY" name="body"/>
+        </entity>
+
+        <entity name="jobs"
+                pk="id"
+                query="SELECT 'JOB' AS TYPE, concat('JOB_', JOB_ID) AS ID, JOB_NAME AS NAME, JOB_DESCRIPTION AS BODY FROM JOB_INFO;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="NAME" name="name"/>
+            <field column="BODY" name="body"/>
+        </entity>
+
+        <entity name="comments"
+                pk="id"
+                query="SELECT 'COMMENT' AS TYPE, concat('COMMENT_', COMMENT_ID) AS ID, COMMENT_CONTENT AS BODY FROM COM_COMMENT;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="BODY" name="body"/>
+        </entity>
+
+        <entity name="videos"
+                pk="id"
+                query="SELECT 'VIDEO' AS TYPE, concat('VIDEO_', VIDEO_ID) AS ID, VIDEO_TITLE AS TITLE FROM COM_VIDEO;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="TITLE" name="title"/>
+        </entity>
+
+
     </document>
 
 </dataConfig>
