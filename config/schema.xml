@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <schema name="default-config" version="1.6">
-    <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
+    <field name="id" type="idType" indexed="true" stored="true" required="true" multiValued="false"/>
     <!-- docValues are enabled by default for long type so we don't need to index the version field  -->
+
     <field name="title" type="string" indexed="true" stored="true" required="false"/>
     <field name="body" type="string" indexed="true" stored="true" required="false"/>
+    <field name="name" type="string" indexed="true" stored="true" required="false"/>
     <field name="type" type="strings" multiValued="true" stored="true" required="false"/>
     <field name="_version_" type="plong" indexed="false" stored="false" required="false"/>
 
     <uniqueKey>id</uniqueKey>
 
+    <fieldType name="idType" class="solr.StrField"/>
     <fieldType name="pdate" class="solr.DatePointField" docValues="true"/>
     <fieldType name="pdates" class="solr.DatePointField" docValues="true" multiValued="true"/>
     <fieldType name="pint" class="solr.IntPointField" docValues="true"/>
