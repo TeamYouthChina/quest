@@ -43,7 +43,7 @@ public class Dataimport {
     }
 
     public static void main(String[] args) {
-        String s= Dataimport.sendGet("http://localhost:8983/solr/youthchinacore/Dataimport", "command=full-import");
+        String s= Dataimport.sendGet("http://localhost:8983/solr/youthchinacore/Dataimport", "command=full-import&clean=true");
         System.out.println(s);
     }
 

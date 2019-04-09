@@ -2,6 +2,54 @@ GET http://localhost:8983/solr/youthchinacore/select?q=*:*
 Accept: */*
 Cache-Control: no-cache
 
+<> 2019-04-07T061710.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061641.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061639.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061638.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061637.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061539.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
 <> 2019-04-07T045935.200.json
 
 ###
@@ -347,54 +395,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2019-04-07T033105.404.html
-
-###
-
-GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-04-07T033035.404.html
-
-###
-
-GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-04-07T032900.404.html
-
-###
-
-GET http://localhost:8983/solr/youthchinacore/select?q=*:*
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-04-07T032829.200.json
-
-###
-
-GET http://localhost:8983/solr/youthchinacore/select?q=*:*
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-04-07T032827.200.json
-
-###
-
-GET http://localhost:8983/solr/youthchinacore/select?q=*:*
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-04-07T032738.200.json
-
-###
-
-GET http://localhost:8983/solr/youthchinacore/select?q=*:*
-Accept: */*
-Cache-Control: no-cache
-
-<> 2019-04-07T030558.200.json
 
 ###
 
