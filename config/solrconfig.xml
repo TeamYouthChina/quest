@@ -78,7 +78,7 @@
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-dataimporthandler-\d.*\.jar" />
 
   <lib dir="${solr.install.dir:../../../..}/contrib/clustering/lib/" regex=".*\.jar" />
-  <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-clustering-\d.*\.jar" />
+  <lib dir="${solr.install.dir:../../../..}/dist/" regex="s/solr/youthchinacore/dataimportolr-clustering-\d.*\.jar" />
 
   <lib dir="${solr.install.dir:../../../..}/contrib/langid/lib/" regex=".*\.jar" />
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-langid-\d.*\.jar" />
@@ -802,7 +802,7 @@
     </lst>
   </requestHandler>
 
-  <requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
+  <requestHandler name="/Dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
   <lst name="defaults">
     <str name="config">./data-config.xml</str>
   </lst>
