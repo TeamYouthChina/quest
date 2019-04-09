@@ -1,0 +1,400 @@
+GET http://localhost:8983/solr/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061710.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061641.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061639.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061638.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061637.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T061539.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T045935.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T045740.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T045735.404.html
+
+###
+
+GET http://localhost:8983/solr/#/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043943.200.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043935.200.json
+
+###
+
+GET http://localhost:8983/solr/#/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043911.200.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?q=type:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043848.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043531.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?command=full-import&q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043523.200.json
+
+###
+
+GET http://localhost:8983/#/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043508.200.html
+
+###
+
+GET http://localhost:8983/http://localhost:8983/#/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T043457.404.html
+
+###
+
+GET http://localhost:8983/http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T042829.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040736.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040722.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040651.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040645.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchina1core/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040643.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040603.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040552.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040542.404.html
+
+###
+
+GET http://localhost:8983/solr/dataimport?command=full-import&clean=true
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040515.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040332.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040325.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T040322.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T035902.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T035857.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T035432.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/select?q=*:*
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T035401.200.json
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T035312.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T034604.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T034554.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore1/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T034259.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T034244.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033822.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033821.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033818.404.html
+
+###
+
+GET http://localhost:8983/solr/7/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033810.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033805.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033603.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033534.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033224.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033115.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033108.404.html
+
+###
+
+GET http://localhost:8983/solr/youthchinacore/dataimport?command=full-import
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-07T033105.404.html
+
+###
+
