@@ -1,0 +1,96 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 48,
+    "params": {
+      "q": "id:USER_*",
+      "fq": "type:USER"
+    }
+  },
+  "response": {
+    "numFound": 12,
+    "start": 0,
+    "docs": [
+      {
+        "title": "Admin",
+        "id": "USER_1",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296875503616
+      },
+      {
+        "title": "DEF",
+        "id": "USER_2",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296875503617
+      },
+      {
+        "title": "GHI",
+        "id": "USER_3",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296876552192
+      },
+      {
+        "title": "ABC",
+        "id": "USER_4",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296876552193
+      },
+      {
+        "title": "DEF",
+        "id": "USER_5",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296876552194
+      },
+      {
+        "title": "GHI",
+        "id": "USER_6",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296876552195
+      },
+      {
+        "title": "ABC",
+        "id": "USER_7",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296877600768
+      },
+      {
+        "title": "DEF",
+        "id": "USER_8",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296877600769
+      },
+      {
+        "title": "GHI",
+        "id": "USER_9",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296877600770
+      },
+      {
+        "title": "TestUser1",
+        "id": "USER_10",
+        "type": [
+          "USER"
+        ],
+        "_version_": 1630437296877600771
+      }
+    ]
+  }
+}
