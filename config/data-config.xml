@@ -74,6 +74,14 @@
             <field column="TITLE" name="title"/>
         </entity>
 
+        <entity name="users"
+                pk="id"
+                query="SELECT 'USER' AS TYPE, concat('USER_', USER_ID) AS ID, USER_NAME AS TITLE FROM SYS_USER;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="TITLE" name="title"/>
+        </entity>
+
 
     </document>
 
