@@ -2,10 +2,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.List;
-import java.util.Map;
 
-public class Dataimport {
+public class SolrAdmin {
 
     public static String sendGet(String url, String param) {
         String result = "";
@@ -43,7 +41,7 @@ public class Dataimport {
     }
 
     public static void main(String[] args) {
-        String s= Dataimport.sendGet("http://localhost:8983/solr/youthchinacore/Dataimport", "command=full-import&clean=true");
+        String s= SolrAdmin.sendGet("http://localhost:8983/solr/youthchinacore/Dataimport", "command=full-import&clean=true");
         System.out.println(s);
     }
 
