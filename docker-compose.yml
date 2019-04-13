@@ -17,6 +17,8 @@ services:
       - solr-precreate
       - youthchinacore
       - /config
+      - wget
+      - http://localhost:8983/solr/youthchinacore/Dataimport?command=full-import&clean=true
 volumes:
   solrdata:
 networks:
