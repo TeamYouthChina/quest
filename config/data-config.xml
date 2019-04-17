@@ -45,7 +45,7 @@
                 query="SELECT 'COMPANY' AS TYPE, concat('COMPANY_', COMPANY_ID) AS ID, COMPANY_NAME AS NAME, COMPANY_INTRODUC AS BODY FROM COMPANY_INFO;">
             <field column="TYPE" name="type"/>
             <field column="ID" name="id"/>
-            <field column="NAME" name="name"/>
+            <field column="TITLE" name="title"/>
             <field column="BODY" name="body"/>
         </entity>
 
@@ -54,7 +54,7 @@
                 query="SELECT 'JOB' AS TYPE, concat('JOB_', JOB_ID) AS ID, JOB_NAME AS NAME, JOB_DESCRIPTION AS BODY FROM JOB_INFO;">
             <field column="TYPE" name="type"/>
             <field column="ID" name="id"/>
-            <field column="NAME" name="name"/>
+            <field column="TITLE" name="title"/>
             <field column="BODY" name="body"/>
         </entity>
 
