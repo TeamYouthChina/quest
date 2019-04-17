@@ -23,7 +23,7 @@
         <field column="BODY" name="body"/>
         </entity>
 
-        <entity name="briefreviews"
+        <entity name="briefReviews"
                 pk="id"
                 query="SELECT 'REVIEW' AS TYPE, concat('REVIEW_', REVIEW_ID) AS ID, COM_RICH_TEXT.TEXT_CONTENT AS BODY FROM COM_BRIEF_REVIEW INNER JOIN COM_RICH_TEXT WHERE REVIEW_BODY=COM_RICH_TEXT.TEXT_ID;">
             <field column="TYPE" name="type"/>
@@ -69,6 +69,14 @@
         <entity name="videos"
                 pk="id"
                 query="SELECT 'VIDEO' AS TYPE, concat('VIDEO_', VIDEO_ID) AS ID, VIDEO_TITLE AS TITLE FROM COM_VIDEO;">
+            <field column="TYPE" name="type"/>
+            <field column="ID" name="id"/>
+            <field column="TITLE" name="title"/>
+        </entity>
+
+        <entity name="users"
+                pk="id"
+                query="SELECT 'USER' AS TYPE, concat('USER_', USER_ID) AS ID, USER_NAME AS TITLE FROM SYS_USER;">
             <field column="TYPE" name="type"/>
             <field column="ID" name="id"/>
             <field column="TITLE" name="title"/>
