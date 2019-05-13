@@ -80,7 +80,7 @@
 
         <entity name="users"
                 pk="ID"
-                query="SELECT 'USER' AS TYPE, concat('USER_', USER_ID) AS ID, USER_NAME AS TITLE, '' AS BODY FROM SYS_USER;">
+                query="SELECT 'USER' AS TYPE, concat('USER_', USER_ID) AS ID, concat(concat(USER_FIRST_NAME, ' '), USER_LAST_NAME) AS TITLE, '' AS BODY FROM SYS_USER;">
             <field column="TYPE" name="type"/>
             <field column="ID" name="id"/>
             <field column="TITLE" name="title"/>
